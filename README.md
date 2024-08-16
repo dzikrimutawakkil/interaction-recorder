@@ -19,8 +19,6 @@ Automated Script Builder (Interaction Recorder) is a Flutter package to record a
 TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
-## Init
-
 Include short and useful examples for package users. Add dependency
 to `/pubspec.yaml` folder.
 
