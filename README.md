@@ -49,9 +49,10 @@ TextFormField(
 Button: To use in Button or onTap Function doing like this
 
 ```dart
+key: ValueKey("your_widget_key"),
 onTap: () {
   InteractionRecorder().logInteraction(
-      "Button clicked", "btn_back");
+      "Button clicked", "your_widget_key");
 }
 ```
 
