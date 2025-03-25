@@ -46,13 +46,23 @@ TextFormField(
   .....
 ```
 
-Button: To use in Button or onTap Function doing like this
+On Tap Element: To use in element tap function doing like this
 
 ```dart
 key: ValueKey("your_widget_key"),
 onTap: () {
   InteractionRecorder().logInteraction(
       "Button clicked", "your_widget_key");
+}
+```
+
+On Long Press Element: To use in element tap function doing like this
+
+```dart
+key: ValueKey("your_widget_key"),
+onLongPress: () {
+  InteractionRecorder().logInteraction(
+      "Long press", "your_widget_key");
 }
 ```
 
